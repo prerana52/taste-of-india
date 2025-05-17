@@ -1,0 +1,42 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background: #fff8f0;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #d62828;
+  color: white;
+  padding: 20px;
+}
+
+.city {
+  background: #fcbf49;
+  margin: 10px auto;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.city:hover {
+  background: #ff9f1c;
+}
+
+#restaurant-section {
+  margin: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #003049;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
